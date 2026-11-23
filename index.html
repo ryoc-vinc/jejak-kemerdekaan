@@ -1,0 +1,933 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jejak Kemerdekaan Indonesia: Diplomasi dan Revolusi Fisik (1945–1949). Platform edukasi sejarah digital interaktif berbasis arsip resmi mengenai perjuangan mempertahankan kedaulatan bangsa.">
+  <meta name="keywords" content="sejarah indonesia, revolusi fisik, diplomasi, linggarjati, renville, roem royen, kmb, agresi militer, bandung lautan api, mohammad toha, sutan sjahrir, mohammad hatta">
+  <meta name="author" content="Platform Edukasi Sejarah Jejak Kemerdekaan">
+  
+  <title>Jejak Kemerdekaan: Diplomasi dan Revolusi Fisik Indonesia 1945–1949</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="reading-progress"></div>
+
+  <!-- Header & Navigasi Editorial -->
+  <header class="site-header">
+    <div class="masthead-strip">
+      <div class="container">
+        <span>ARSIP SEJARAH NASIONAL INDONESIA • EDISI DIGITAL 1945–1949</span>
+        <span>DIPLOMASI & REVOLUSI FISIK</span>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <a href="#beranda" class="brand-wrap">
+        <span class="brand-title">JEJAK KEMERDEKAAN</span>
+        <span class="brand-sub">Diplomasi & Revolusi Fisik (1945–1949)</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+        <li><a href="#pengantar" class="nav-link">Pengantar</a></li>
+        <li><a href="#diplomasi" class="nav-link">Diplomasi</a></li>
+        <li><a href="#bandung-lautan-api" class="nav-link">Bandung Lautan Api</a></li>
+        <li><a href="#komparasi" class="nav-link">Komparasi</a></li>
+        <li><a href="#tokoh" class="nav-link">Tokoh</a></li>
+        <li><a href="#galeri" class="nav-link">Galeri</a></li>
+        <li><a href="#kuis" class="nav-link">Kuis</a></li>
+        <li><a href="#referensi" class="nav-link">Referensi</a></li>
+        <li><a href="#profil-pembuat" class="nav-link">Profil</a></li>
+      </ul>
+
+      <div class="nav-tools">
+
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Menu Navigasi">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" data-lenis-prevent>
+    <a href="#beranda">Beranda</a>
+    <a href="#pengantar">Pengantar Revolusi</a>
+    <a href="#diplomasi">Linimasa Diplomasi (8 Babak)</a>
+    <a href="#bandung-lautan-api">Studi Bandung Lautan Api</a>
+    <a href="#komparasi">Komparasi Diplomasi & Fisik</a>
+    <a href="#tokoh">Biografi Tokoh Bangsa</a>
+    <a href="#galeri">Galeri Arsip Sejarah</a>
+    <a href="#kuis">Kuis Sejarah Interaktif</a>
+    <a href="#referensi">Daftar Pustaka & Arsip</a>
+    <a href="#profil-pembuat">Profil Pembuat</a>
+  </div>
+
+  <main>
+    <!-- HERO EDITORIAL SECTION -->
+    <section class="hero-section" id="beranda">
+      <div class="container">
+        <div class="hero-editorial-header">
+          <span class="hero-meta-label">Monograf Digital Sejarah Revolusi Kemerdekaan</span>
+          <h1 class="hero-main-title">JEJAK KEMERDEKAAN</h1>
+          <p class="hero-subtitle">Diplomasi dan Revolusi Fisik Indonesia (1945–1949)</p>
+          <p class="hero-tagline-quote">
+            "Menelusuri Perjuangan, Mengabadikan Sejarah. Bagaimana sebuah bangsa muda mempertahankan kedaulatan di hadapan kekuatan imperialis dunia melalui perpaduan perundingan diplomatik dan pengorbanan senjata."
+          </p>
+          <div class="hero-cta-group">
+            <a href="#diplomasi" class="btn btn-primary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Jelajahi Linimasa Diplomasi
+            </a>
+            <a href="#bandung-lautan-api" class="btn btn-secondary">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+              Studi Bandung Lautan Api
+            </a>
+            <a href="#kuis" class="btn btn-outline-burgundy">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              Mulai Kuis Interaktif
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Showcase Box -->
+        <div class="hero-showcase">
+          <div class="hero-photo-frame" onclick="openLightboxById('kmb_1')">
+            <img src="images/kmb_penandatanganan.jpg" 
+                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ronde_Tafel_Conferentie_%2C_slotzitting_in_Ridderzaal%2C_Hatta_tekent%2C_Bestanddeelnr_903-6874.jpg/960px-Ronde_Tafel_Conferentie_%2C_slotzitting_in_Ridderzaal%2C_Hatta_tekent%2C_Bestanddeelnr_903-6874.jpg';" 
+                 alt="Penandatanganan Hasil KMB oleh Drs. Mohammad Hatta di Ridderzaal Den Haag">
+            <div class="photo-caption">
+              <strong>Dokumentasi Puncak Pengakuan Kedaulatan:</strong> Drs. Mohammad Hatta menandatangani naskah piagam Konferensi Meja Bundar (KMB) di Gedung Ridderzaal, Den Haag, 2 November 1949. (Koleksi: Nationaal Archief Belanda / Anefo).
+            </div>
+          </div>
+
+          <div class="hero-briefing">
+            <div>
+              <span class="archive-badge olive" style="margin-bottom: 0.5rem;">Dialektika Revolusi Nasional</span>
+              <h3>Dua Sayap Penegak Kedaulatan</h3>
+              <p style="font-size: 0.98rem; line-height: 1.7; margin-bottom: 1rem;">
+                Kemerdekaan Indonesia yang diproklamasikan pada 17 Agustus 1945 bukanlah akhir perjuangan, melainkan fajar dari pertempuran empat tahun paling menentukan dalam sejarah bangsa. Menghadapi kembalinya kolonialisme Belanda yang membonceng tentara Sekutu, para pendiri bangsa menjalankan strategi dwitunggal: kekuatan gerilya semesta di lapangan dan kelihaian negosiasi di panggung hukum internasional.
+              </p>
+            </div>
+
+            <div class="hero-stats-grid">
+              <div class="hero-stat-item">
+                <strong>8 Babak</strong>
+                <span>Peristiwa Diplomasi Utama (Linggarjati s.d. KMB)</span>
+              </div>
+              <div class="hero-stat-item">
+                <strong>23 Maret 1946</strong>
+                <span>Pembumihangusan Heroik Bandung Lautan Api</span>
+              </div>
+              <div class="hero-stat-item">
+                <strong>200.000 Jiwa</strong>
+                <span>Rakyat Priangan Berkorban Mengungsi ke Selatan</span>
+              </div>
+              <div class="hero-stat-item">
+                <strong>27 Des 1949</strong>
+                <span>Pengakuan Kedaulatan Penuh dan De Jure Dunia</span>
+              </div>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">
+              <span style="color: var(--accent-burgundy); font-weight: 700;">Catatan Kurasi:</span> Seluruh data dan narasi didasarkan pada arsip resmi ANRI, Nationaal Archief Belanda, dokumen Dewan Keamanan PBB, dan karya historiografi George McTurnan Kahin, A.H. Nasution, serta M.C. Ricklefs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PENGANTAR HISTORIS -->
+    <section class="section-wrapper" id="pengantar">
+      <div class="container-narrow">
+        <div class="section-editorial-header">
+          <span class="section-label">Latar Belakang & Konteks Geopolitik</span>
+          <h2 class="section-title">Indonesia Pascakemerdekaan 1945</h2>
+          <p class="section-desc">Masa transisi genting pasca-kapitulasi Jepang, pendaratan tentara Sekutu AFNEI, dan ambisi pemulihan Hindia Belanda oleh NICA.</p>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--accent-border); border-radius: var(--radius-md); padding: 2.5rem; box-shadow: var(--shadow-sm);">
+          <p class="lead">
+            Ketika Ir. Soekarno dan Drs. Mohammad Hatta memproklamasikan kemerdekaan pada Jumat pagi, 17 Agustus 1945 di Pegangsaan Timur 56 Jakarta, suasana geopolitik di kawasan Asia Tenggara sedang mengalami kekosongan kekuasaan (<em>power vacuum</em>). Kekaisaran Jepang baru saja menyerah tanpa syarat kepada Sekutu pada 15 Agustus 1945 menyusul pemboman atom atas Hiroshima dan Nagasaki.
+          </p>
+
+          <p>
+            Berdasarkan Perjanjian Potsdam, kepulauan Nusantara dimasukkan ke dalam wilayah tanggung jawab Komando Asia Tenggara Sekutu (<em>South East Asia Command</em> / SEAC) di bawah pimpinan Laksamana Muda Lord Louis Mountbatten. Pasukan Sekutu dari kesatuan tentara Inggris-India (<em>Allied Forces Netherlands East Indies</em> / AFNEI) yang dipimpin Letnan Jenderal Sir Philip Christison mendarat di Jakarta pada akhir September 1945. Misi resmi mereka adalah melucuti tentara Jepang dan membebaskan tawanan perang Eropa (<em>Recovery of Allied Prisoners of War and Internees</em> / RAPWI).
+          </p>
+
+          <div style="background: var(--bg-paper); border-left: 4px solid var(--accent-burgundy); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+            <h4 style="color: var(--accent-burgundy); margin-bottom: 0.5rem; font-size: 1.15rem;">Ambisi Rekolonisasi NICA dan Sumpah "Merdeka atau Mati"</h4>
+            <p style="margin: 0; font-size: 0.98rem; line-height: 1.7;">
+              Pemerintah Kerajaan Belanda di bawah pimpinan Ratu Wilhelmina menolak mengakui deklarasi kemerdekaan Republik Indonesia. Mereka menganggap kemerdekaan tersebut sebagai produk ilegal buatan fasisme Jepang. Belanda membonceng tentara Inggris melalui aparat pemerintahan sipil <em>Nederlandsch Indië Civiele Administratie</em> (NICA) pimpinan Letnan Gubernur Jenderal Dr. H.J. van Mook untuk menegakkan kembali kekuasaan kolonial Hindia Belanda di Nusantara.
+            </p>
+          </div>
+
+          <p>
+            Rakyat Indonesia dan para pemuda pejuang yang tergabung dalam Tentara Keamanan Rakyat (TKR/TRI) menyambut kedatangan NICA dengan perlawanan bersenjata yang sengit di berbagai pelosok tanah air. Meletuslah pertempuran-pertempuran legendaris di Surabaya (10 November 1945), Ambarawa (Desember 1945), Medan Area, dan Bandung (Maret 1946). 
+          </p>
+
+          <p>
+            Sadar bahwa perang fisik berkepanjangan dapat menghancurkan bangsa yang baru lahir dan kekuatan Sekutu memiliki supremasi senjata modern, para pemimpin Republik membagi tugas secara cermat: <strong>Sutan Sjahrir, Mohammad Hatta, Mohammad Roem, dan Haji Agus Salim</strong> membuka front perundingan diplomatik untuk meraih pengakuan hukum internasional di PBB; sementara <strong>Panglima Besar Soedirman, Kolonel A.H. Nasution, Bung Tomo, Mohammad Toha</strong>, serta jutaan laskar rakyat berdiri kokoh di garis depan pertempuran bersenjata.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: LINIMASA INTERAKTIF DIPLOMASI -->
+    <section class="section-wrapper" id="diplomasi">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Perjalanan Meja Perundingan (1946–1949)</span>
+          <h2 class="section-title">Linimasa Sejarah Diplomasi Kemerdekaan</h2>
+          <p class="section-desc">Delapan babak perjuangan perundingan diplomasi yang saling berkesinambungan, dari pengakuan terbatas di Linggarjati hingga penyerahan kedaulatan mutlak di Konferensi Meja Bundar.</p>
+        </div>
+
+        <!-- Stepper Bar (Horizontal Scrollable) -->
+        <div class="timeline-stepper-wrap">
+          <div class="timeline-nav-strip" id="timeline-nav-strip">
+            <button class="timeline-nav-btn active" onclick="renderTimelineEvent(0)">
+              <span class="t-btn-num">1</span>
+              <span class="t-btn-date">Nov 1946</span>
+              <span class="t-btn-title">Linggarjati</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(1)">
+              <span class="t-btn-num">2</span>
+              <span class="t-btn-date">Juli 1947</span>
+              <span class="t-btn-title">Agresi I</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(2)">
+              <span class="t-btn-num">3</span>
+              <span class="t-btn-date">Agt 1947</span>
+              <span class="t-btn-title">KTN (PBB)</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(3)">
+              <span class="t-btn-num">4</span>
+              <span class="t-btn-date">Jan 1948</span>
+              <span class="t-btn-title">Renville</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(4)">
+              <span class="t-btn-num">5</span>
+              <span class="t-btn-date">Des 1948</span>
+              <span class="t-btn-title">Agresi II</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(5)">
+              <span class="t-btn-num">6</span>
+              <span class="t-btn-date">Des 1948</span>
+              <span class="t-btn-title">PDRI Rimba</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(6)">
+              <span class="t-btn-num">7</span>
+              <span class="t-btn-date">Mei 1949</span>
+              <span class="t-btn-title">Roem-Royen</span>
+            </button>
+            <button class="timeline-nav-btn" onclick="renderTimelineEvent(7)">
+              <span class="t-btn-num">8</span>
+              <span class="t-btn-date">Nov 1949</span>
+              <span class="t-btn-title">KMB Den Haag</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Event Display Container (Pre-rendered for Event 1 Linggarjati, replaced dynamically via JS) -->
+        <div id="event-display-container">
+          <div class="event-display-card">
+            <div class="event-card-header">
+              <div class="event-header-info">
+                <span class="archive-badge burgundy">Peristiwa 1 dari 8</span>
+                <h3>Perjanjian Linggarjati</h3>
+                <div class="event-meta">
+                  <span><strong>Waktu:</strong> 11–15 November 1946 (Penandatanganan: 25 Maret 1947)</span>
+                  <span><strong>Lokasi:</strong> Desa Linggarjati, Cilimus, Kuningan, Jawa Barat</span>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-secondary" onclick="openLightboxById('linggarjati_1')">
+                  <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                  Perbesar Foto Arsip
+                </button>
+              </div>
+            </div>
+
+            <div class="event-card-body">
+              <div class="event-col-left">
+                <div class="event-photo-box" onclick="openLightboxById('linggarjati_1')">
+                  <img src="images/linggarjati_perundingan.jpg" 
+                       onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Besprekingen_en_ondertekening_wapenstilstandsovereenkomst_Linggadjati_conferent%2C_Bestanddeelnr_901-9430.jpg/960px-Besprekingen_en_ondertekening_wapenstilstandsovereenkomst_Linggadjati_conferent%2C_Bestanddeelnr_901-9430.jpg';" 
+                       alt="Perundingan Linggarjati" 
+                       loading="lazy">
+                  <div class="event-photo-meta">
+                    <strong>Perundingan Linggarjati dan Penandatanganan Gencatan Senjata</strong><br>
+                    <span>Sumber: Nationaal Archief Belanda / Anefo (Fotograaf: Willem van de Poll) (1946)</span>
+                  </div>
+                </div>
+
+                <div class="delegates-box">
+                  <h5>Pihak & Delegasi yang Terlibat:</h5>
+                  <p><strong>Indonesia:</strong> Dipimpin oleh Perdana Menteri merangkap Menlu Sutan Sjahrir, beranggotakan Mohammad Roem, Susanto Tirtoprodjo, dan Dr. A.K. Gani.</p>
+                  <p><strong>Belanda:</strong> Diketuai oleh Prof. Willem Schermerhorn, beranggotakan F. de Boer, H.J. van Mook, dan Max van Poll.</p>
+                  <p><strong>Penengah / Mediator:</strong> Lord Killearn (Miles Lampson), utusan khusus Kerajaan Inggris untuk Asia Tenggara.</p>
+                </div>
+
+                <div class="impact-callout">
+                  <h5>Dampak & Hasil Perjuangan:</h5>
+                  <p>Hubungan kedua negara semakin memanas karena Belanda terus melanggar gencatan senjata. Pada 21 Juli 1947, Belanda secara sepihak membatalkan perjanjian ini dengan melancarkan Agresi Militer Belanda I.</p>
+                </div>
+              </div>
+
+              <div class="event-details-text">
+                <h4>Ringkasan Historis</h4>
+                <p>Perjanjian bilateral resmi pertama antara Republik Indonesia dan Kerajaan Belanda yang menghasilkan pengakuan kedaulatan de facto RI atas Jawa, Madura, dan Sumatera, serta kesepakatan pembentukan Republik Indonesia Serikat (RIS).</p>
+
+                <h4>Latar Belakang & Penyebab</h4>
+                <p>Pasca-Proklamasi 17 Agustus 1945, kedatangan pasukan Sekutu (AFNEI) yang diboncengi NICA memicu rangkaian pertempuran berdarah di berbagai kota (Surabaya, Bandung, Ambarawa, Medan). Inggris menyadari bahwa sengketa bersenjata tidak dapat diselesaikan dengan kekerasan militer murni, sehingga memfasilitasi perundingan politik antara pemerintah Republik dan otoritas Belanda di bawah pimpinan Letnan Gubernur Jenderal H.J. van Mook.</p>
+
+                <h4>Pokok-Pokok Isi Perjanjian / Keputusan</h4>
+                <ul>
+                  <li>Belanda mengakui secara de facto kedaulatan Republik Indonesia atas wilayah Jawa, Madura, dan Sumatera.</li>
+                  <li>Republik Indonesia dan Kerajaan Belanda sepakat bekerja sama membentuk negara federal bernama Republik Indonesia Serikat (RIS) selambat-lambatnya 1 Januari 1949.</li>
+                  <li>Republik Indonesia Serikat bersama Kerajaan Belanda akan membentuk Uni Indonesia-Belanda yang dikepalai oleh Ratu Belanda.</li>
+                  <li>Pemerintah Belanda dan RI akan bekerja sama mengembalikan hak milik dan properti milik warga asing.</li>
+                </ul>
+
+                <h4>Reaksi & Dinamika Politik</h4>
+                <p>Memicu pro-kontra sengit di dalam negeri. Kelompok oposisi (Persatuan Perjuangan pimpinan Tan Malaka, Partai Masyumi, dan PNI sayap kiri) mengecam keras Sjahrir karena dianggap 'menjual' wilayah luar Jawa-Sumatera (Kalimantan, Sulawesi, Maluku, Sunda Kecil) dan menerima subordinasi di bawah mahkota Belanda. Di parlemen KNIP, ratifikasi perjanjian berjalan sangat alot hingga Presiden Soekarno harus menerbitkan Penetapan Presiden No. 6/1946 untuk menambah jumlah anggota KNIP demi mengamankan persetujuan.</p>
+
+                <div class="pros-cons-grid">
+                  <div class="pros-box">
+                    <strong>Keuntungan bagi RI:</strong>
+                    <p>Memperoleh pengakuan internasional pertama kali secara de facto dari kekuatan Barat, membuktikan eksistensi hukum Republik, dan membuka pintu pengakuan de jure dari negara-negara Arab (Mesir, Suriah, Lebanon) serta India.</p>
+                  </div>
+                  <div class="cons-box">
+                    <strong>Kerugian / Risiko:</strong>
+                    <p>Wilayah kekuasaan RI menyusut drastis hanya mencakup tiga pulau; Belanda memanfaatkan waktu peralihan untuk menjalankan politik adu domba (devide et impera) dengan mendirikan negara-negara boneka (Negara Indonesia Timur, Negara Pasundan, Negara Madura).</p>
+                  </div>
+                </div>
+
+                <h4>Perbedaan Penafsiran (Interpretation Gap)</h4>
+                <p>Belanda menafsirkan bahwa selama masa peralihan sebelum RIS berdiri, kedaulatan tertinggi atas seluruh Nusantara tetap berada di tangan Ratu Belanda. Sebaliknya, Indonesia menafsirkan bahwa kedaulatan Republik sudah utuh dan sejajar dengan Belanda.</p>
+
+                <div class="event-citation-footer">
+                  <strong>Rujukan Arsip & Rujukan Akademis:</strong> ANRI Koleksi Naskah Linggarjati; Kahin (1952) pp. 196–205; Ricklefs (2008) pp. 270–273.
+                </div>
+              </div>
+            </div>
+
+            <div class="event-card-nav-footer">
+              <span style="font-size:0.85rem; color:var(--text-muted);">Awal Linimasa</span>
+              <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted);">Peristiwa 1 / 8</span>
+              <button class="btn btn-primary" onclick="renderTimelineEvent(1)">Peristiwa Selanjutnya (2) →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: STUDI MENDALAM BANDUNG LAUTAN API -->
+    <section class="section-wrapper" id="bandung-lautan-api">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Studi Mendalam Revolusi Fisik</span>
+          <h2 class="section-title">BANDUNG LAUTAN API</h2>
+          <p class="section-desc">23–24 Maret 1946 • Operasi Bumi Hangus Total dan Heroisme Rakyat Priangan Mempertahankan Kedaulatan Bangsa</p>
+        </div>
+
+        <article class="bla-article">
+          <!-- Hero Photo Frame Bandung -->
+          <div class="bla-hero-frame" onclick="openLightboxById('bla_1')">
+            <img src="images/bandung_lautan_api_1946.jpg" 
+                 onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/2/26/Bandung_Lautan_Api.jpg';" 
+                 alt="Kobaran Api Bandung Lautan Api 1946">
+            <div class="photo-caption">
+              <strong>Dokumentasi Asli IPPHOS (Maret 1946):</strong> Kepulan asap hitam tebal dan kobaran api membubung tinggi di atas cakrawala Bandung Selatan saat strategi bumi hangus ditiupkan oleh para pejuang kemerdekaan. (Koleksi: Perpustakaan Nasional RI).
+            </div>
+          </div>
+
+          <!-- Kutipan Heroik -->
+          <blockquote class="quote-editorial">
+            "Lebih baik kita membumihanguskan tanah air sendiri hingga menjadi abu, daripada membiarkannya utuh menjadi pangkalan militer kaum penjajah untuk menindas kembali kemerdekaan kita!"
+            <span style="display: block; font-family: var(--font-mono); font-size: 0.85rem; font-style: normal; margin-top: 0.5rem; color: var(--text-muted);">— Kolonel Abdul Haris Nasution, Musyawarah Regentsweg, 23 Maret 1946</span>
+          </blockquote>
+
+          <div class="bla-content-grid">
+            <div class="bla-main-content">
+              <!-- Sub-bab A -->
+              <h3 class="bla-subheading" id="bla-latar-belakang">A. Kondisi Bandung Pasca-Proklamasi & Kedatangan Sekutu-NICA</h3>
+              <p>
+                Kota Bandung pada masa kolonial Belanda dikenal sebagai <em>"Parijs van Java"</em>, sebuah kota peristirahatan pegunungan yang tertata rapi di cekungan dataran tinggi Priangan. Selama masa pendudukan Jepang (1942–1945), Bandung dijadikan sentra persenjataan dan logistik militer Angkatan Darat ke-16 Jepang karena keberadaan kompleks pabrik senjata dan amunisi <em>Artillerie Constructie Winkel</em> (ACW - cikal bakal PT Pindad) serta instalasi bengkel peralatan militer terpadu.
+              </p>
+              <p>
+                Ketika berita Proklamasi Kemerdekaan 17 Agustus 1945 tiba di Bandung pada 18 Agustus melalui kawat kantor berita Domei yang ditangkap oleh para pemuda telegraf di Gedung Kantor Pos dan Telegraf (PTT), api revolusi seketika membakar seluruh penjuru kota. Para pemuda yang tergabung dalam Komite Nasional Indonesia (KNI) Jawa Barat, Badan Keamanan Rakyat (BKR), dan laskar perjuangan rakyat bergerak cepat merebut kekuasaan sipil dan fasilitas vital dari tangan penguasa militer Jepang.
+              </p>
+              <p>
+                Pada bulan September hingga Oktober 1945, terjadi rangkaian pertempuran berdarah merebut Lapangan Terbang Andir (kini Bandara Husein Sastranegara), Pabrik Mesiu Kiaracondong, dan Gedung Sate (3 Desember 1945 di mana 21 pemuda mempertahankan gedung dari serbuan tentara Gurkha). Situasi kian meledak ketika pada <strong>12 Oktober 1945</strong>, pasukan Sekutu dari Brigade Infanteri India ke-37 di bawah komando Divisi India ke-23 yang dipimpin oleh <strong>Brigadir Jenderal N. MacDonald</strong> mendarat dan memasuki kota Bandung. Kehadiran Sekutu diboncengi oleh aparat militer dan sipil Belanda NICA yang langsung membebaskan ribuan tawanan perang Belanda dan mempersenjatai mereka, memicu teror dan provokasi penembakan sepihak terhadap warga pribumi.
+              </p>
+
+              <!-- Sub-bab B -->
+              <h3 class="bla-subheading" id="bla-kronologi">B. Dinamika Konflik & Rangkaian Ultimatum Sekutu</h3>
+              <p>
+                Ketegangan antara laskar pemuda bersenjata, Tentara Republik Indonesia (TRI), melawan Sekutu-NICA berkembang menjadi perang kota terbuka (<em>urban guerrilla warfare</em>).
+              </p>
+              <p>
+                <strong>Ultimatum Pertama (21 November 1945):</strong> Brigadir MacDonald melayangkan ultimatum pertama kepada Gubernur Jawa Barat Datuk Djamin dan pimpinan TKR agar seluruh senjata api rampasan dari Jepang diserahkan. Sekutu membagi kota Bandung menjadi dua bagian dengan batas pemisah <strong>Jalur Rel Kereta Api</strong> (Stasiun Bandung): Bandung Utara untuk Sekutu dan Eropa, serta Bandung Selatan untuk warga pribumi. Pasukan Indonesia diperintahkan mengosongkan Bandung Utara selambat-lambatnya 27 November 1945. Ultimatum ini ditolak mentah-mentah. Bentrokan senjata pecah di sepanjang rel kereta api, Pasirkaliki, dan Viaduct. Keadaan kian kacau ketika pada malam 25 November 1945 tanggul Sungai Cikapundung jebol diterjang banjir bandang, menewaskan ratusan warga.
+              </p>
+              <p>
+                <strong>Ultimatum Kedua (23 Maret 1946):</strong> Panglima Tertinggi Sekutu di Jawa, <strong>Mayor Jenderal D.C. Hawthorn</strong>, melayangkan ultimatum kedua yang bersifat mutlak: Seluruh kesatuan bersenjata TRI, laskar rakyat, dan pejabat Republik harus <strong>mengosongkan seluruh Bandung Selatan</strong> sejauh radius 11 kilometer dari rel kereta api selambat-lambatnya pada <strong>24 Maret 1946 pukul 24.00 WIB</strong>. Jika tidak dipatuhi, Sekutu mengancam akan mengerahkan armada pesawat pembom tempur RAF untuk meratakan seluruh Bandung Selatan dengan tanah.
+              </p>
+
+              <!-- Sub-bab C -->
+              <h3 class="bla-subheading" id="bla-musyawarah">C. Musyawarah Regentsweg & Keputusan Pembumihangusan</h3>
+              <p>
+                Ultimatum kedua Sekutu memicu dilema dramatis antara dua instruksi yang saling bertolak belakang:
+              </p>
+              <ul>
+                <li><strong>Instruksi Jakarta (PM Sutan Sjahrir):</strong> Memerintahkan agar TRI mematuhi ultimatum mundur ke luar kota demi menjaga citra diplomasi damai Republik di mata Sekutu dan PBB.</li>
+                <li><strong>Instruksi Yogyakarta (Panglima Besar Soedirman):</strong> Memerintahkan agar setiap jengkal tanah Bandung dipertahankan sampai tetes darah penghabisan dan menolak menyerah pada gertakan Sekutu.</li>
+              </ul>
+              <p>
+                Menghadapi situasi genting tersebut, Komandan Divisi III TRI <strong>Kolonel Abdul Haris Nasution</strong> menggelar musyawarah darurat militer pada hari Sabtu siang, 23 Maret 1946 di Jalan Regentsweg No. 8 (sekarang Jalan Dewi Sartika) bersama Letkol Sutoko, Mayor Rukana (Komandan Polisi Tentara), E.M. Mansyur (Ketua Majelis Persatuan Perjuangan Priangan / MP3), dan para pimpinan laskar.
+              </p>
+              <p>
+                Musyawarah menyimpulkan: jika bertahan dalam kota, TRI yang kekurangan senjata berat akan dibantai bom udara Sekutu; namun jika mundur begitu saja, Sekutu-NICA akan memanfaatkan fasilitas modern Bandung Selatan sebagai <em>pangkalan militer raksasa garis depan (forward base)</em> untuk menginvasi pedalaman Jawa. Mayor Rukana mencetuskan seruan emosional: <em>"Mari kita jadikan Bandung Selatan lautan api!"</em>
+              </p>
+              <p>
+                Kolonel Nasution mengambil keputusan brilian: secara formal mematuhi perintah Jakarta untuk mengosongkan kota demi menyelamatkan diplomasi, namun sebelum pergi, <strong>seluruh bangunan, fasilitas vital, gedung pemerintahan, dan instalasi strategis di Bandung Selatan akan dibumihanguskan secara total</strong>, sementara <strong>200.000 warga sipil dievakuasi</strong> ke pegunungan selatan untuk melancarkan perang gerilya semesta.
+              </p>
+
+              <!-- Sub-bab D -->
+              <h3 class="bla-subheading" id="bla-pembumihangusan">D. Malam Pembumihangusan & Evakuasi Akbar 200.000 Rakyat</h3>
+              <p>
+                Sejak Sabtu sore 23 Maret 1946, kawat perintah rahasia ditiupkan. Sekitar <strong>200.000 penduduk Bandung Selatan</strong> berbondong-bondong meninggalkan rumah mereka dengan berjalan kaki menuju Dayeuhkolot, Majalaya, Ciparay, Banjaran, dan Soreang di bawah rintik hujan malam. Rakyat dengan rela membakar sendiri rumah-rumah papan mereka agar tidak dihuni oleh serdadu NICA.
+              </p>
+              <p>
+                Tepat pukul <strong>20.00 WIB</strong>, operasi peledakan ditiupkan. Regu-regu zeni pembakar TRI meledakkan gedung bank, tangsi militer Cicadas, gedung percetakan De Unie, instalasi listrik, dan jembatan-jembatan penghubung dengan dinamit. Asap hitam pekat membubung ribuan meter ke udara. Langit malam Priangan seketika memerah menyala laksana lautan bara api neraka, diiringi dentuman artileri dan desingan peluru tentara Sekutu yang terkejut dan panik menyaksikan kota yang hendak mereka duduki telah musnah dilahap api.
+              </p>
+
+              <!-- Sub-bab E -->
+              <h3 class="bla-subheading" id="bla-dayeuhkolot">E. Aksi Martir Dayeuhkolot: Mohammad Toha & Mohammad Ramdan</h3>
+              <p>
+                Di tengah kobaran api kota, drama kepahlawanan legendaris terjadi di kawasan Dayeuhkolot, 11 kilometer selatan kota. Di sana berdiri <strong>Gudang Amunisi dan Mesiu Sentral Sekutu-NICA</strong> yang berisi ribuan ton bubuk mesiu, granat, dan peluru artileri berat yang disiapkan musuh untuk memburu rakyat yang mengungsi.
+              </p>
+              <p>
+                Dua pemuda pejuang Barisan Rakjat Indonesia (BRI), yaitu <strong>Mohammad Toha</strong> (komandan seksi berusia 19 tahun dengan keahlian montir mesin militer) dan rekannya <strong>Mohammad Ramdan</strong>, mengajukan diri memimpin misi bunuh diri (<em>suicide mission</em>). Dini hari menjelang subuh 24 Maret 1946, keduanya merayap melewati parit berlumpur, menyusup kawat berduri, melumpuhkan penjaga, dan masuk ke ruang amunisi utama.
+              </p>
+              <p>
+                Toha menyalakan pemantik dinamit batangan ke tumpukan mesiu. Sebuah <strong>ledakan dahsyat menggelegar merobek keheningan lembah Bandung</strong>, terdengar hingga puluhan kilometer jauhnya. Gudang senjata musuh hancur lebur rata dengan tanah, menyisakan danau kawah besar. Mohammad Toha dan Mohammad Ramdan gugur seketika di titik ledakan sebagai martir bangsa sejati, menyelamatkan puluhan ribu pengungsi dari pembantaian amunisi Sekutu.
+              </p>
+
+              <!-- Sub-bab F -->
+              <h3 class="bla-subheading" id="bla-dampak">F. Analisis Dampak Strategis, Militer, dan Sosial-Ekonomi</h3>
+              <ul>
+                <li><strong>Kemenangan Hampa bagi Musuh:</strong> Sekutu menduduki Bandung Selatan pada 24 Maret 1946, tetapi kemenangan tersebut hampa (<em>Pyrrhic victory</em>). Mereka hanya menduduki reruntuhan kota mati tanpa air, tanpa listrik, tanpa bengkel kerja, dan tanpa rakyat. Rencana pembentukan pangkalan serbuan ke Jawa Tengah lumpuh total.</li>
+                <li><strong>Keutuhan Divisi Siliwangi Terjaga:</strong> Keputusan menolak pertempuran frontal di kota menyelamatkan struktur kesatuan TRI dari kehancuran total. TRI memindahkan markas ke pedalaman Garut dan Tasikmalaya serta menyusun kantong-kantong gerilya yang tak tertembus.</li>
+                <li><strong>Lahirnya Doktrin Perang Gerilya Semesta:</strong> Pengalaman pembumihangusan ini mengkristalkan pemikiran militer Kolonel A.H. Nasution yang di kemudian hari dituangkan dalam buku klasik dunia: <em>"Pokok-Pokok Gerilya"</em>, fondasi doktrin pertahanan rakyat semesta TNI (Sishankamrata).</li>
+                <li><strong>Solidaritas Rakyat Pengungsi:</strong> Selama berbulan-bulan, 200.000 warga Bandung hidup dalam penderitaan di kamp-kamp pengungsian Ciparay dan Majalaya, namun membangkitkan rasa persaudaraan dan nasionalisme luhur dari warga pedesaan Priangan yang membuka lumbung beras mereka untuk sesama anak bangsa.</li>
+              </ul>
+
+              <!-- Sub-bab G -->
+              <h3 class="bla-subheading" id="bla-lagu">G. Historiografi Lagu 'Halo-Halo Bandung' (Fakta vs Cerita Populer)</h3>
+              <p>
+                Terdapat distorsi sejarah populer bahwa lagu kebangsaan legendaris ciptaan komponis <strong>Ismail Marzuki</strong> diciptakan spontan di tengah kobaran api 23 Maret 1946.
+              </p>
+              <p>
+                <strong>Fakta Historis yang Terverifikasi:</strong> Menurut riset sejarah musik kemerdekaan, Ismail Marzuki awalnya menciptakan lagu tersebut pada era pendudukan Jepang sebagai ungkapan rindu pribadi terhadap kota Bandung (tempat tinggal istrinya, Eulis Zuraidah). Lagu aslinya bertempo lambat dengan lirik awal rindu: <em>"Halo-halo Bandung, Ibu kota Periangan / Halo-halo Bandung, kota kenang-kenangan..."</em>. 
+              </p>
+              <p>
+                Namun, pascaperistiwa pembumihangusan 23 Maret 1946 dan evakuasi puluhan ribu pejuang ke perbukitan selatan, para pejuang di garis depan merombak bait terakhir lagu tersebut menjadi mars perjuangan patriotik: <em>"Sekarang telah menjadi lautan api / Mari Bung rebut kembali!"</em>. Mars penuh kobaran semangat inilah yang direkam dan dinyanyikan seluruh rakyat Indonesia hingga hari ini.
+              </p>
+
+              <!-- Sub-bab H -->
+              <h3 class="bla-subheading" id="bla-monumen">H. Monumen Bandung Lautan Api di Lapangan Tegallega</h3>
+              <p>
+                Untuk mengabadikan pengorbanan luhur rakyat Bandung, Pemerintah Daerah Kotamadya Bandung mendirikan <strong>Monumen Bandung Lautan Api</strong> di taman bersejarah Lapangan Tegallega (salah satu titik api terbesar masa revolusi).
+              </p>
+              <p>
+                Monumen megah ini dirancang oleh seniman pematung kontemporer terkemuka ITB, <strong>Sunaryo</strong>, dan diresmikan pada <strong>23 Maret 1984</strong>. Monumen memiliki tinggi <strong>45 meter</strong> (simbol tahun 1945), berbentuk pilar segitiga yang menjulang tinggi dengan mahkota <strong>9 sisi lidah api tembaga</strong> (melambangkan sembilan penjuru wilayah perlawanan rakyat Priangan). Di sekeliling plaza monumen terukir relief batu yang menceritakan heroisme rakyat, musyawarah Regentsweg, iring-iringan warga pengungsi, hingga aksi martir Mohammad Toha di Dayeuhkolot.
+              </p>
+            </div>
+
+            <!-- Sidebar Kanan Bandung Lautan Api -->
+            <aside class="bla-sidebar">
+              <div class="bla-sidebar-card">
+                <h5>Tokoh Sentral Bandung</h5>
+                <ul style="list-style: none; font-size: 0.9rem;">
+                  <li style="margin-bottom: 0.75rem;">
+                    <strong>Mohammad Toha (1927–1946):</strong><br>
+                    <span style="color: var(--text-muted);">Komandan Seksi I BRI, martir peledak gudang mesiu Dayeuhkolot.</span>
+                  </li>
+                  <li style="margin-bottom: 0.75rem;">
+                    <strong>Mohammad Ramdan:</strong><br>
+                    <span style="color: var(--text-muted);">Pejuang BRI, sahabat karib dan pendamping Toha di Dayeuhkolot.</span>
+                  </li>
+                  <li style="margin-bottom: 0.75rem;">
+                    <strong>Kolonel A.H. Nasution:</strong><br>
+                    <span style="color: var(--text-muted);">Komandan Divisi III TRI, pengambil keputusan strategis bumi hangus.</span>
+                  </li>
+                  <li style="margin-bottom: 0.75rem;">
+                    <strong>Mayor Rukana:</strong><br>
+                    <span style="color: var(--text-muted);">Komandan Polisi Tentara yang mencetuskan istilah 'lautan api'.</span>
+                  </li>
+                  <li style="margin-bottom: 0.75rem;">
+                    <strong>Atje Bastaman:</strong><br>
+                    <span style="color: var(--text-muted);">Wartawan Suara Merdeka yang menulis tajuk 'Bandoeng Laoetan Api'.</span>
+                  </li>
+                  <li>
+                    <strong>Ismail Marzuki:</strong><br>
+                    <span style="color: var(--text-muted);">Komponis pengubah lirik patriotik lagu 'Halo-Halo Bandung'.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="bla-sidebar-card">
+                <h5>Galeri Dokumentasi Bandung</h5>
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                  <div class="event-photo-box" onclick="openLightboxById('bla_2')">
+                    <img src="images/bandung_ruins_1946.jpg" alt="Puing Bandung 1946" style="height: 120px; object-fit: cover;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Puing-Puing Bangunan yang Hangus di Bandung Selatan (1946)</div>
+                  </div>
+                  <div class="event-photo-box" onclick="openLightboxById('bla_5')">
+                    <img src="images/bandung_diorama.jpg" alt="Diorama Bandung" style="height: 120px; object-fit: cover;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Diorama Evakuasi 200.000 Rakyat Bandung (Monas)</div>
+                  </div>
+                  <div class="event-photo-box" onclick="openLightboxById('monumen_bla')">
+                    <img src="images/monumen_bandung_lautan_api.jpg" alt="Monumen Tegallega" style="height: 120px; object-fit: cover;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Monumen Bandung Lautan Api di Tegallega (Sunaryo, 1984)</div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 3: KOMPARASI PERJUANGAN -->
+    <section class="section-wrapper" id="komparasi">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Sintesis Dialektis Kemerdekaan</span>
+          <h2 class="section-title">Perbandingan Diplomasi & Revolusi Fisik</h2>
+          <p class="section-desc">Mengapa dua jalur perjuangan ini bukan merupakan pilihan yang saling meniadakan, melainkan 'dua bilah mata gunting' yang bekerja serempak mengakhiri kolonialisme.</p>
+        </div>
+
+        <div class="comparison-table-wrap">
+          <table class="table-editorial">
+            <thead>
+              <tr>
+                <th style="width: 180px;">Dimensi Komparasi</th>
+                <th class="col-diplomacy">Jalur Diplomasi (Perundingan)</th>
+                <th class="col-physical">Jalur Revolusi Fisik (Bersenjata)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="row-indicator">Karakteristik & Metode</td>
+                <td>Perjuangan legalistik, politis, intelektual, dan retoris di meja perundingan bilateral serta sidang Dewan Keamanan PBB.</td>
+                <td>Perjuangan kontak senjata, konfrontasi militer terbuka, perang kota, bumi hangus, dan perang gerilya semesta di lapangan.</td>
+              </tr>
+              <tr>
+                <td class="row-indicator">Tujuan Strategis</td>
+                <td>Meraih pengakuan kedaulatan de jure universal, memecah isolasi diplomatik kolonial, dan menekan Belanda melalui kekuatan negara adidaya.</td>
+                <td>Mempertahankan integritas teritorial secara riil, melumpuhkan aset ekonomi penjajah, dan mematahkan moral tempur serdadu kolonial.</td>
+              </tr>
+              <tr>
+                <td class="row-indicator">Aktor Utama</td>
+                <td>Diplomat negarawan, politisi sipil, pakar hukum (Sutan Sjahrir, Moh. Hatta, Moh. Roem, Agus Salim, Dr. Leimena).</td>
+                <td>Tentara Nasional Indonesia (TNI), laskar pemuda (BRI, Pesindo, Hizbullah, Barisan Banteng), serta 200.000 rakyat sipil Priangan.</td>
+              </tr>
+              <tr>
+                <td class="row-indicator">Arena Perjuangan</td>
+                <td>Desa Linggarjati, geladak USS Renville, Hotel des Indes Batavia, Aula Ridderzaal Den Haag, Markas PBB Lake Success New York.</td>
+                <td>Surabaya, Ambarawa, Bandung Selatan, kantong-kantong gerilya Jawa Barat dan Jawa Tengah, serta rimba Sumatera Barat (PDRI).</td>
+              </tr>
+              <tr>
+                <td class="row-indicator">Kelebihan & Kekuatan</td>
+                <td>Mengikat pihak lawan dalam hukum internasional yang sah; memaksa intervensi resmi PBB dan ancaman penghentian Marshall Plan AS.</td>
+                <td>Membuktikan fakta tak terbantahkan di lapangan bahwa Republik berdaulat secara de facto dan memiliki tentara yang siap mati demi bangsa.</td>
+              </tr>
+              <tr>
+                <td class="row-indicator">Keterbatasan & Risiko</td>
+                <td>Sering terpaksa menerima kompromi wilayah yang menyakitkan (penyusutan wilayah drastis di Linggarjati dan Garis Van Mook Renville).</td>
+                <td>Korban jiwa prajurit dan rakyat sangat masif; infrastruktur kota hancur lebur; penderitaan kelaparan dan ketiadaan obat-obatan.</td>
+              </tr>
+              <tr>
+                <td class="row-indicator">Hasil Akhir</td>
+                <td>Tercapainya pengakuan kedaulatan tanpa syarat di KMB 1949 dan diterimanya Indonesia menjadi anggota resmi PBB ke-60 pada 1950.</td>
+                <td>Pengusiran serdadu kolonial, penggagalan pangkalan militer Sekutu di Bandung, dan perlindungan eksistensi Republik saat Soekarno-Hatta ditawan.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--accent-border); border-radius: var(--radius-md); padding: 2.5rem; box-shadow: var(--shadow-sm); margin-top: 2rem;">
+          <h4 style="font-size: 1.4rem; color: var(--accent-burgundy); margin-bottom: 1rem;">Sintesis: Dwitunggal Strategi Mempertahankan Kemerdekaan</h4>
+          <p>
+            Dalam historiografi kritis, adalah keliru besar memandang jalur diplomasi dan perjuangan bersenjata sebagai dua kubu yang saling bermusuhan. Kenyataannya, <strong>diplomasi tanpa kekuatan militer gerilya tidak akan memiliki wibawa tawar</strong> di hadapan Belanda. Pidato Sutan Sjahrir di Dewan Keamanan PBB dan kepiawaian Mohammad Roem di Hotel des Indes didengarkan oleh dunia karena serdadu Belanda terus dipukul mundur oleh gerilya TNI di pegunungan Jawa dan Sumatera.
+          </p>
+          <p style="margin: 0;">
+            Sebaliknya, <strong>keberhasilan militer gerilya di pedalaman tidak akan diakui dunia internasional tanpa diplomasi</strong> yang menerjemahkan kemenangan tersebut ke dalam klausul perjanjian yang sah menurut hukum internasional. Ketika Soekarno-Hatta ditawan Belanda pada 1948, eksistensi negara diselamatkan oleh dua pilar sekaligus: gerilya bersenjata Jenderal Soedirman dan pemerintahan darurat PDRI Syafruddin Prawiranegara, hingga akhirnya bermuara pada pengakuan kedaulatan de jure penuh pada Konferensi Meja Bundar 1949.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: TOKOH BANGSA -->
+    <section class="section-wrapper" id="tokoh">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Para Pahlawan Kusuma Bangsa</span>
+          <h2 class="section-title">Tokoh Sentral Perjuangan Kemerdekaan</h2>
+          <p class="section-desc">Profil biografi substantif para diplomat ulung, panglima militer, martir laskar pemuda, dan pemimpin pemerintahan darurat yang mengorbankan segalanya demi tegaknya Merah Putih.</p>
+        </div>
+
+        <div class="figures-grid" id="figures-grid">
+          <!-- Populated dynamically via app.js with verified photos and full biographic details -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: GALERI ARSIP SEJARAH -->
+    <section class="section-wrapper" id="galeri">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Dokumentasi Visual Autentik</span>
+          <h2 class="section-title">Galeri Arsip Sejarah Revolusi</h2>
+          <p class="section-desc">Koleksi 24 foto dan dokumen sejarah resmi periode 1945–1949 dari Arsip Nasional RI, Nationaal Archief Belanda, Tropenmuseum, dan Imperial War Museum London. Klik pada foto untuk memperbesar dengan Image Lightbox interaktif.</p>
+        </div>
+
+        <div class="gallery-filter-bar" id="gallery-filter-bar">
+          <button class="filter-btn active" data-filter="all" onclick="filterGallery('all')">Semua Koleksi (24)</button>
+          <button class="filter-btn" data-filter="diplomasi" onclick="filterGallery('diplomasi')">Diplomasi</button>
+          <button class="filter-btn" data-filter="agresi" onclick="filterGallery('agresi')">Agresi Militer</button>
+          <button class="filter-btn" data-filter="pdri" onclick="filterGallery('pdri')">PDRI Rimba</button>
+          <button class="filter-btn" data-filter="kmb" onclick="filterGallery('kmb')">KMB Den Haag</button>
+          <button class="filter-btn" data-filter="bandung" onclick="filterGallery('bandung')">Bandung Lautan Api</button>
+          <button class="filter-btn" data-filter="tokoh" onclick="filterGallery('tokoh')">Tokoh Bangsa</button>
+          <button class="filter-btn" data-filter="monumen" onclick="filterGallery('monumen')">Monumen & Warisan</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Populated dynamically via app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: KUIS SEJARAH INTERAKTIF -->
+    <section class="section-wrapper" id="kuis">
+      <div class="container-narrow">
+        <div class="section-editorial-header">
+          <span class="section-label">Uji Pengetahuan & Evaluasi Pemahaman</span>
+          <h2 class="section-title">Kuis Sejarah Revolusi Kemerdekaan</h2>
+          <p class="section-desc">12 pertanyaan akademis berbasis materi sejarah kritis yang telah Anda pelajari. Dapatkan pembahasan mendalam seketika pada setiap jawaban.</p>
+        </div>
+
+        <div class="quiz-container">
+          <!-- Active Question Card -->
+          <div id="quiz-active-card">
+            <div class="quiz-header-bar">
+              <span class="quiz-progress-badge" id="quiz-progress-badge">Soal 1 dari 12</span>
+              <span class="quiz-score-badge" id="quiz-score-badge">Skor: 0 Poin</span>
+            </div>
+
+            <div class="quiz-question-box">
+              <h4 id="quiz-question-text">Memuat pertanyaan kuis...</h4>
+              <div class="quiz-options-list" id="quiz-options-list">
+                <!-- Populated dynamically via JS -->
+              </div>
+
+              <div class="quiz-feedback-box" id="quiz-feedback-box">
+                <div class="quiz-feedback-title" id="quiz-feedback-title"></div>
+                <div id="quiz-feedback-text"></div>
+              </div>
+
+              <div class="quiz-controls">
+                <button class="btn btn-primary" id="btn-next-quiz" style="display: none;" onclick="advanceQuiz()">
+                  Soal Berikutnya →
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Summary Score Card (Hidden initially) -->
+          <div class="quiz-summary-card" id="quiz-summary-card">
+            <span class="archive-badge burgundy">Hasil Evaluasi Kuis Sejarah</span>
+            <div class="quiz-final-score-display" id="quiz-final-score-val">100</div>
+            <h3 id="quiz-eval-title" style="margin-bottom: 0.75rem; color: var(--accent-burgundy);">Predikat: Sejarawan Utama Revolusi</h3>
+            <p id="quiz-eval-desc" style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.05rem;">
+              Selamat! Anda telah menyelesaikan evaluasi sejarah kemerdekaan dengan gemilang.
+            </p>
+            <button class="btn btn-primary" onclick="restartQuiz()">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+              Ulangi Kuis dari Awal
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: REFERENSI & DAFTAR PUSTAKA -->
+    <section class="section-wrapper" id="referensi">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Landasan Akademis & Sumber Arsip</span>
+          <h2 class="section-title">Daftar Pustaka & Rujukan Sejarah</h2>
+          <p class="section-desc">Seluruh data, fakta kronologis, dokumen, dan analisis dalam platform ini merujuk kepada sumber-sumber sejarah primer dan sekunder yang terverifikasi secara akademis.</p>
+        </div>
+
+        <div class="biblio-section-wrap">
+          <div class="biblio-grid">
+            <div class="biblio-group">
+              <h5>I. Arsip Resmi & Dokumen Negara</h5>
+              <ul class="biblio-list">
+                <li><strong>Arsip Nasional Republik Indonesia (ANRI):</strong> <em>Inventaris Arsip Kabinet Perdana Menteri RI 1945–1949</em>, Seri Naskah Perjanjian Linggarjati, Renville, dan Roem-Royen.</li>
+                <li><strong>ANRI:</strong> <em>Koleksi Dokumen Pemerintahan Darurat Republik Indonesia (PDRI) 1948–1949</em>, Kawat Morse Stasiun Radio Bidar Alam dan Berkas Penerbitan URIPS.</li>
+                <li><strong>Nationaal Archief Belanda (Den Haag):</strong> <em>Archief van de Algemene Secretarie van de Nederlands-Indische Regering en het Kabinet van de Gouverneur-Generaal, 1944–1949</em>, No. Toegang 2.10.14.</li>
+                <li><strong>United Nations Security Council:</strong> <em>Official Records (UNSCOR) Documents S/459 (1947), S/525 (1947), S/1234 (1949)</em>, Lake Success, New York.</li>
+              </ul>
+            </div>
+
+            <div class="biblio-group">
+              <h5>II. Buku Monograf & Rujukan Sejarah</h5>
+              <ul class="biblio-list">
+                <li><strong>Ide Anak Agung Gde Agung.</strong> (1973). <em>Twenty Years Indonesian Foreign Policy 1945–1965</em>. The Hague: Mouton & Co.</li>
+                <li><strong>Kahin, George McTurnan.</strong> (1952). <em>Nationalism and Revolution in Indonesia</em>. Ithaca, New York: Cornell University Press.</li>
+                <li><strong>Mestika Zed.</strong> (1997). <em>Pemerintahan Darurat Republik Indonesia (PDRI): Sebuah Mata Rantai Sejarah yang Terlupakan</em>. Jakarta: Pustaka Utama Grafiti.</li>
+                <li><strong>Nasution, Abdul Haris.</strong> (1977). <em>Sekitar Perang Kemerdekaan Indonesia (Jilid 1–11)</em>. Bandung: Penerbit Angkasa.</li>
+                <li><strong>Nasution, Abdul Haris.</strong> (1953). <em>Pokok-Pokok Gerilja dan Pertahanan Republik Indonesia</em>. Bandung: Pembimbing.</li>
+                <li><strong>Reid, Anthony.</strong> (1974). <em>The Indonesian National Revolution 1945–1950</em>. Melbourne: Longman.</li>
+                <li><strong>Ricklefs, M.C.</strong> (2008). <em>A History of Modern Indonesia since c. 1200 (4th Ed.)</em>. Stanford: Stanford University Press.</li>
+                <li><strong>Roem, Mohammad.</strong> (1972). <em>Bunga Rampai dari Sejarah (Jilid 1–3)</em>. Jakarta: Bulan Bintang.</li>
+                <li><strong>Dinas Sejarah Militer Kodam VI/Siliwangi.</strong> (1968). <em>Siliwangi dari Masa ke Masa</em>. Bandung: Siliwangi.</li>
+              </ul>
+            </div>
+
+            <div class="biblio-group">
+              <h5>III. Sumber Foto & Lisensi Publik</h5>
+              <ul class="biblio-list">
+                <li><strong>Fotocollectie Anefo / Nationaal Archief Belanda:</strong> Koleksi foto Willem van de Poll, Herbert Behrens, Steggerda, H. Wilmar (Lisensi Domain Publik).</li>
+                <li><strong>Tropenmuseum / Wereldculturen:</strong> Koleksi foto militer dan KTN (Lisensi CC BY-SA 3.0).</li>
+                <li><strong>IPPHOS / Perpustakaan Nasional RI:</strong> Dokumentasi autentik Bandung Lautan Api 1946 (Domain Publik).</li>
+                <li><strong>Balai Pelestarian Kebudayaan Wilayah III:</strong> Foto cagar budaya Rumah Markas PDRI Bidar Alam (CC BY-SA 4.0).</li>
+                <li><strong>Pemerintah Kota Bandung:</strong> Dokumentasi arsitektur Monumen Bandung Lautan Api Lapangan Tegallega karya pematung Sunaryo (1984).</li>
+              </ul>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px dashed var(--accent-border); text-align: center;">
+            <p style="font-size: 0.95rem; margin: 0; color: var(--text-muted);">
+              Tersedia dokumen monograf penelitian akademik lengkap yang dapat diunduh atau dipelajari secara terpisah: 
+              <a href="PENELITIAN_SEJARAH_LENGKAP.md" target="_blank" style="color: var(--accent-burgundy); font-weight: 700; text-decoration: underline;">
+                PENELITIAN_SEJARAH_LENGKAP.md
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: PROFIL PEMBUAT & DEDIKASI AKADEMIK -->
+    <section class="section-wrapper" id="profil-pembuat">
+      <div class="container">
+        <div class="section-editorial-header">
+          <span class="section-label">Tentang Peneliti & Pengembang</span>
+          <h2 class="section-title">Profil Pembuat Platform</h2>
+          <p class="section-desc">Prakata, dedikasi akademis, dan identitas pengembang di balik perancangan media edukasi sejarah digital "Jejak Kemerdekaan".</p>
+        </div>
+
+        <div class="creator-profile-card">
+          <div class="creator-photo-col">
+            <div class="creator-photo-frame">
+              <img src="images/creator_profile.jpg" 
+                   id="creator-photo-img" 
+                   alt="Foto Rio Marvin Luckyanto (Marvin) - Pembuat Platform">
+              <div class="creator-seal-badge">
+                <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span>PENELITI</span>
+              </div>
+            </div>
+            <div class="creator-status-badge">
+              <span class="status-indicator-dot"></span>
+              <span>SMK Negeri 7 Semarang • Elektronika Komunikasi</span>
+            </div>
+          </div>
+
+          <div class="creator-info-col">
+            <div class="creator-header-meta">
+              <span class="archive-badge burgundy">Pengembang Utama & Peneliti Sejarah Digital</span>
+              <h3 class="creator-name" id="creator-display-name">Rio Marvin Luckyanto</h3>
+              <p class="creator-institution" id="creator-display-institution">
+                <strong>SMK Negeri 7 Semarang</strong> • Teknik Elektronika Komunikasi
+              </p>
+            </div>
+
+            <div class="creator-quote-statement">
+              <svg class="quote-svg-icon" width="26" height="26" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              <p id="creator-display-quote">
+                "Sebagai generasi muda di era transformasi teknologi, saya meyakini bahwa teknologi bukan sekadar alat visual, melainkan jembatan hidup untuk menghubungkan kembali generasi masa kini dengan akar memori perjuangan bangsanya. Platform 'Jejak Kemerdekaan' ini saya kembangkan untuk menyajikan dialektika diplomasi dan revolusi fisik secara komprehensif, kritis, dan berakar pada arsip autentik—agar api keteladanan para pendahulu bangsa senantiasa mengakar di sanubari pelajar Indonesia."
+              </p>
+            </div>
+
+            <p style="font-size: 0.96rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              <strong>Biodata Singkat:</strong> Rio Marvin Luckyanto (akrab disapa Marvin) adalah siswa kompetensi keahlian Teknik Elektronika Komunikasi di SMK Negeri 7 Semarang. Marvin memiliki ketertarikan mendalam dalam eksplorasi rekayasa teknologi web, integrasi multimedia interaktif, serta penelitian arsip sejarah kemerdekaan Indonesia periode 1945–1949.
+            </p>
+
+            <div class="creator-details-grid">
+              <div class="creator-detail-item">
+                <span class="label">Asal Sekolah:</span>
+                <span class="val">SMK Negeri 7 Semarang</span>
+              </div>
+              <div class="creator-detail-item">
+                <span class="label">Kompetensi Keahlian:</span>
+                <span class="val">Teknik Elektronika Komunikasi</span>
+              </div>
+              <div class="creator-detail-item">
+                <span class="label">Peran Pengembang:</span>
+                <span class="val">Inisiator, Web Developer, & Kurator Materi</span>
+              </div>
+              <div class="creator-detail-item">
+                <span class="label">Kontak / Surel:</span>
+                <span class="val" id="creator-display-email"><a href="mailto:vncnzox@gmail.com" style="color: var(--accent-burgundy); text-decoration: underline;">vncnzox@gmail.com</a></span>
+              </div>
+            </div>
+
+            <div class="creator-social-bar">
+              <span class="social-label">Tautan & Media Sosial:</span>
+              <div class="creator-social-links" id="creator-social-links">
+                <a href="mailto:vncnzox@gmail.com" class="social-btn" id="creator-link-email" title="Kirim Surel / Email">
+                  <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <span>vncnzox@gmail.com</span>
+                </a>
+                <a href="https://instagram.com/vinc.lcky" target="_blank" rel="noopener noreferrer" class="social-btn" id="creator-link-instagram" title="Instagram @vinc.lcky">
+                  <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                  <span>@vinc.lcky</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>JEJAK KEMERDEKAAN</h4>
+          <p style="font-size: 0.9rem; line-height: 1.6; color: #8F8477; margin-bottom: 1rem;">
+            Platform edukasi sejarah digital interaktif yang didedikasikan untuk mengabadikan memori kolektif perjuangan mempertahankan kemerdekaan Republik Indonesia melalui jalur diplomasi dan revolusi fisik (1945–1949).
+          </p>
+          <span class="archive-badge" style="background: rgba(255,255,255,0.08); color: #C4BAAC; border-color: rgba(255,255,255,0.15);">
+            Digital History Archive Project • Siap Di-deploy di Vercel
+          </span>
+        </div>
+
+        <div class="footer-col">
+          <h5>Navigasi Materi</h5>
+          <ul class="footer-links">
+            <li><a href="#pengantar">Pengantar Revolusi</a></li>
+            <li><a href="#diplomasi">Linimasa Diplomasi (8 Babak)</a></li>
+            <li><a href="#bandung-lautan-api">Studi Bandung Lautan Api</a></li>
+            <li><a href="#komparasi">Komparasi Diplomasi vs Fisik</a></li>
+            <li><a href="#tokoh">Biografi Tokoh Bangsa</a></li>
+            <li><a href="#profil-pembuat">Profil Pembuat Platform</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Fitur Interaktif</h5>
+          <ul class="footer-links">
+            <li><a href="#diplomasi" onclick="renderTimelineEvent(0)">Interaktif Timeline</a></li>
+            <li><a href="#galeri">Galeri Arsip & Lightbox</a></li>
+            <li><a href="#kuis">Kuis Pemahaman Sejarah</a></li>
+            <li><a href="javascript:void(0)" onclick="openSearchModal()">Pencarian Cepat Materi</a></li>
+            <li><a href="#referensi">Daftar Pustaka & Arsip</a></li>
+            <li><a href="#profil-pembuat">Tentang Pengembang</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 1945–1949 / 2026 Platform Edukasi Sejarah Jejak Kemerdekaan. Hak Cipta Terbuka untuk Tujuan Pendidikan dan Penelitian Sejarah.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightbox-modal" onclick="if (event.target === this) closeLightbox();">
+    <button class="lightbox-close-btn" id="lightbox-close" onclick="closeLightbox()" title="Tutup (Esc)">✕</button>
+    <button class="lightbox-nav-btn prev" id="lightbox-prev" onclick="prevLightbox()" title="Sebelumnya (Panah Kiri)">‹</button>
+    <button class="lightbox-nav-btn next" id="lightbox-next" onclick="nextLightbox()" title="Selanjutnya (Panah Kanan)">›</button>
+
+    <div class="lightbox-content-card" data-lenis-prevent>
+      <div class="lightbox-img-side">
+        <img src="" id="lightbox-img" alt="Foto Arsip Sejarah" title="Klik untuk perbesar/zoom">
+      </div>
+      <div class="lightbox-details-side">
+        <button class="lightbox-close-card-btn" onclick="closeLightbox()" title="Tutup Modal (Esc)">✕</button>
+        <span class="archive-badge burgundy" id="lightbox-event" style="margin-bottom: 0.5rem; align-self: flex-start;">Kategori Peristiwa</span>
+        <h4 id="lightbox-title">Judul Foto Dokumentasi</h4>
+        <p class="lightbox-desc" id="lightbox-desc">Deskripsi arsip sejarah...</p>
+
+        <div class="lightbox-table-info">
+          <div class="lightbox-meta-row">
+            <span class="meta-label">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Periode Waktu:
+            </span>
+            <span class="meta-val" id="lightbox-year">1945–1949</span>
+          </div>
+          <div class="lightbox-meta-row">
+            <span class="meta-label">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              Sumber Koleksi:
+            </span>
+            <span class="meta-val" id="lightbox-credit">Arsip Nasional RI</span>
+          </div>
+          <div class="lightbox-meta-row">
+            <span class="meta-label">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              Lisensi Arsip:
+            </span>
+            <span class="meta-val" id="lightbox-license">Domain Publik</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div class="search-modal" id="search-modal">
+    <div class="search-dialog" data-lenis-prevent>
+      <div class="search-input-header">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 0.75rem; color: var(--text-muted);"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" id="search-input" placeholder="Cari peristiwa, tokoh, atau konsep sejarah..." oninput="handleSearchInput(event)">
+        <button onclick="closeSearchModal()" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--text-muted);">✕</button>
+      </div>
+      <div class="search-results-list" id="search-results-list">
+        <!-- Search results injected here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING BACK TO TOP BUTTON -->
+  <button class="back-to-top-btn" id="back-to-top-btn" title="Kembali ke atas">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
